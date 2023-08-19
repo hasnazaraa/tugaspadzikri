@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dasar css</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Color</h2>
+    <p style="color:#5D8233;">text color, adalah salah satu properti CSS yang digunakan untuk mengubah warna text tiap elemen HTML. kode warna ini #5D8233</p>
+    <p style="color:#F11A7B;">text color, adalah salah satu properti CSS yang digunakan untuk mengubah warna text tiap elemen HTML. kode warna ini #F11A7B</p>
+    <p style="color:#2B3A55;">text color, adalah salah satu properti CSS yang digunakan untuk mengubah warna text tiap elemen HTML. kode warna ini #2B3A55</p>
+
+    <h2>Background (color-image)</h2>
+    <p style="background-color: #B8405E;">ini merupakan teks background-color, kode warnanya yaituuu #B8405E</p>
+    <div class="bg">jadi ini tuh background image memakai div class & css yaaaw </div>
+   
+    <h2>Border (width+color)</h2>
+    <p>Border dalam CSS berfungsi untuk membuat garis tepi sebuah objek HTML.</p>
+    <p class="one">Border ini dengan "groove border" yang diberi warna navy  </p>
+    <p class="two">Border ini dengan "solid border" yang diberi warna peach</p>
+    <p class="three">Border ini dengan "dotted border" yang diberi warna pink</p>
+    <p class="four">Border ini dengan "double border" yang diberi warna maroon.</p>
+
+    <h2>Padding</h2>
+    <p></p>padding digunakan untuk membuat ruang di sekitar konten elemen, di dalam batas yang ditentukan.</p>
+</p>
+    <div class="padding" style="text-align: center;">Elemen div ini memiliki padding atas 50px, padding kanan<br> 30px,
+        padding bawah 50px, dan padding
+        kiri 80px
+    </div>
+
+    <h2>Margin</h2>
+    <p>margin digunakan untuk menciptakan ruang di sekitar elemen, di luar batas yang ditentukan.</p>
+    <div class="margin" style="text-align: center; ">Elemen div ini memiliki margin atas 100px, margin kanan 150px<br>
+        margin bawah 100px, dan margin
+        kiri 80px.</div>
+
+    <h2>Height-width</h2>    
+    <div class="heightwidth">height dan width properti digunakan untuk mengatur tinggi dan lebar elemen.</div>
+
+    <h2>Font</h2>
+    <p><b>font-family (jenis font yang lebih spesifik)</b></p>
+    <p class="p1">teks ini menggunakan font Times New Roman</p>
+    <p class="p2">teks ini menggunakan font Arial</p>
+    <p class="p3">teks ini menggunakan font Lucida Console</p>
+
+        <h2> Max-width</h2>
+        <p>max-width digunakan untuk mengatur lebar maksimum elemen.</p>
+        
+        <div class="ex1">This div element has width: 500px;</div><br> 
+        <div class="ex2">This div element has max-width: 500px;</div>
+
+        <h2>Float</h2>
+        <p>float menentukan bagaimana sebuah elemen harus mengambang. Properti ini float digunakan untuk memposisikan dan memformat konten misalnya membiarkan gambar mengambang ke kiri ke teks dalam wadah</p>
+        <p>Float terdiri dari beberapa elemenya itu:</p>
+            <li>left- Elemen mengapung di sebelah kiri wadahnya</li>
+            <li>right- Elemen mengapung di sebelah kanan wadahnya</li>
+            <li>none- Elemen tidak mengapung (akan ditampilkan tepat di tempat kemunculannya di teks)</li>
+            <li>inherit- Elemen mewarisi nilai float dari induknya</li>
+            <li>dalam penggunaannya yang paling sederhana, float  properti dapat digunakan untuk membungkus teks di sekitar gambar.</li>
+        <p>contoh float none:</p>     
+<h2>bandung</h2>
+<p><img src="bandung.jpg" alt="bandungz" style="width:200px;height:150px;margin-left:20px;">
+    Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang baru untuk menggantikan ibu kota yang lama di Dayeuhkolot.
+
+
+    <h2>Navigation bar</h2>
+    <p>Daftar tautan navigation bars, memiliki navigasi yang mudah digunakan adalah penting untuk membangun situs web.</p>
+    <p>dibagi menjadi 2 yaitu:</p>
+    <li>Vertikal navbar</li>
+    <li>Horizontal navbar</li>
+    <h4><b>Vertikal navbar:</b></p>
+    <ul>
+        <li><a href="#home">beranda</a></li>
+        <li><a href="#news">belanja</a></li>
+        <li><a href="#contact">kontak</a></li>
+        <li><a href="#about">tentang</a></li>
+      </ul>
+
+      <h2>Dropdown Menu</h2>
+<p>unsur kontrol grafis, mirip dengan kotak daftar, yang memungkinkan pengguna untuk pilih satu nilai dari daftar.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  </div>
+</div><br>
+      
+<div>
+  <h2>Form</h2>
+  <p>Form biasanya digunakan untuk mengumpulkan data dari pengunjung web kita. Mulai dari form untuk login, form kontak, form untuk pendaftaran user, bahkan untuk mengirimkan data antar halaman web.</p>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="indonesia">Indonesia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</style>
+</head>
+</body>
+       
+</body>
+</html>
